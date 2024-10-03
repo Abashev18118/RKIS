@@ -10682,7 +10682,195 @@
 							"_parent": {
 								"$ref": "AAAAAAGSUz9mb6EH2HQ="
 							},
-							"name": "ActivityDiagram1"
+							"name": "ActivityDiagram1",
+							"ownedViews": [
+								{
+									"_type": "UMLSwimlaneView",
+									"_id": "AAAAAAGSU0N1ZKFuQDQ=",
+									"_parent": {
+										"$ref": "AAAAAAGSUz9mcKEI04U="
+									},
+									"model": {
+										"$ref": "AAAAAAGSU0N1ZKFsxRw="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGSU0N1ZKFvr0w=",
+											"_parent": {
+												"$ref": "AAAAAAGSU0N1ZKFuQDQ="
+											},
+											"font": "Arial;13;0",
+											"left": 288,
+											"top": 52,
+											"width": 176,
+											"height": 13,
+											"text": "Client",
+											"verticalAlignment": 3
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 48,
+									"width": 176,
+									"height": 784,
+									"nameLabel": {
+										"$ref": "AAAAAAGSU0N1ZKFvr0w="
+									}
+								},
+								{
+									"_type": "UMLSwimlaneView",
+									"_id": "AAAAAAGSU0QzWaGHdUQ=",
+									"_parent": {
+										"$ref": "AAAAAAGSUz9mcKEI04U="
+									},
+									"model": {
+										"$ref": "AAAAAAGSU0QzWaGFOr8="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGSU0QzWaGIGsg=",
+											"_parent": {
+												"$ref": "AAAAAAGSU0QzWaGHdUQ="
+											},
+											"font": "Arial;13;0",
+											"left": 464,
+											"top": 52,
+											"width": 176,
+											"height": 13,
+											"text": "Oficciant",
+											"verticalAlignment": 3
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 464,
+									"top": 48,
+									"width": 176,
+									"height": 784,
+									"nameLabel": {
+										"$ref": "AAAAAAGSU0QzWaGIGsg="
+									}
+								},
+								{
+									"_type": "UMLSwimlaneView",
+									"_id": "AAAAAAGSU0Soi6GXmmk=",
+									"_parent": {
+										"$ref": "AAAAAAGSUz9mcKEI04U="
+									},
+									"model": {
+										"$ref": "AAAAAAGSU0Soi6GVOG4="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGSU0Soi6GYiY8=",
+											"_parent": {
+												"$ref": "AAAAAAGSU0Soi6GXmmk="
+											},
+											"font": "Arial;13;0",
+											"left": 640,
+											"top": 52,
+											"width": 168,
+											"height": 13,
+											"text": "Power",
+											"verticalAlignment": 3
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 640,
+									"top": 48,
+									"width": 168,
+									"height": 784,
+									"nameLabel": {
+										"$ref": "AAAAAAGSU0Soi6GYiY8="
+									}
+								},
+								{
+									"_type": "UMLSwimlaneView",
+									"_id": "AAAAAAGSU0Uv+qGmNmw=",
+									"_parent": {
+										"$ref": "AAAAAAGSUz9mcKEI04U="
+									},
+									"model": {
+										"$ref": "AAAAAAGSU0Uv+qGkNzc="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGSU0Uv+qGnOUk=",
+											"_parent": {
+												"$ref": "AAAAAAGSU0Uv+qGmNmw="
+											},
+											"font": "Arial;13;0",
+											"left": 808,
+											"top": 52,
+											"width": 168,
+											"height": 13,
+											"text": "Admin",
+											"verticalAlignment": 3
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 808,
+									"top": 48,
+									"width": 168,
+									"height": 784,
+									"nameLabel": {
+										"$ref": "AAAAAAGSU0Uv+qGnOUk="
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"_type": "UMLActivityPartition",
+							"_id": "AAAAAAGSU0N1ZKFsxRw=",
+							"_parent": {
+								"$ref": "AAAAAAGSUz9mb6EH2HQ="
+							},
+							"name": "Client"
+						},
+						{
+							"_type": "UMLActivityPartition",
+							"_id": "AAAAAAGSU0O6B6F1F6c=",
+							"_parent": {
+								"$ref": "AAAAAAGSUz9mb6EH2HQ="
+							},
+							"name": "ActivityPartition1"
+						},
+						{
+							"_type": "UMLActivityPartition",
+							"_id": "AAAAAAGSU0QzWaGFOr8=",
+							"_parent": {
+								"$ref": "AAAAAAGSUz9mb6EH2HQ="
+							},
+							"name": "Oficciant"
+						},
+						{
+							"_type": "UMLActivityPartition",
+							"_id": "AAAAAAGSU0Soi6GVOG4=",
+							"_parent": {
+								"$ref": "AAAAAAGSUz9mb6EH2HQ="
+							},
+							"name": "Power"
+						},
+						{
+							"_type": "UMLActivityPartition",
+							"_id": "AAAAAAGSU0Uv+qGkNzc=",
+							"_parent": {
+								"$ref": "AAAAAAGSUz9mb6EH2HQ="
+							},
+							"name": "Admin"
+						},
+						{
+							"_type": "UMLActivityPartition",
+							"_id": "AAAAAAGSU0WHo6GwQq8=",
+							"_parent": {
+								"$ref": "AAAAAAGSUz9mb6EH2HQ="
+							},
+							"name": "IS"
 						}
 					]
 				}
